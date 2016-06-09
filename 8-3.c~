@@ -1,0 +1,23 @@
+
+/********************************************
+プログラム実習8-3
+与えられたn個の抵抗を、並列に接続した時の
+抵抗値を計算するプログラム。
+
+********************************************/
+
+#include <stdio.h>
+
+const int jointed_num = 10;
+
+int main(void){
+
+  char line[100];
+  int resistance_value[32];
+  
+  printf("%d個目の抵抗値を入力してください。",);
+  fgets(line, sizeof(line), stdin);
+  sscanf(line
+  
+    
+  
